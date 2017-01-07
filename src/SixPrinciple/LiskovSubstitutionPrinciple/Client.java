@@ -1,4 +1,4 @@
-package LiskovSubstitutionPrinciple;
+package SixPrinciple.LiskovSubstitutionPrinciple;
 
 /**
  * Created by yanbowen on 1/2/2017.

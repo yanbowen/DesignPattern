@@ -1,6 +1,28 @@
-# DesignPattern
+# DesignPattern made by yanbowen
 设计模式Demo
 
 ##六大设计原则
-1.LiskovSubstitutionPrinciple  
-2.OpenClosePrinciple
+1.SixPrinciple.LiskovSubstitutionPrinciple  
+2.SixPrinciple.OpenClosePrinciple
+
+- - -
+##23种设计模式
+###一、策略模式
+>（策略模式使用的就是面向对象的继承和多态机制）  
+  
+#####1. 定义：定义一组算法，将每个算法都封装起来，并且使它们之间可以互换。  
+#####2. 策略模式三个角色   
+* Context封装角色：起承上启下封装作用，屏蔽高层模块对策略、算法的直接访问，封装可能存在的变化。
+* Strategy抽象策略角色：策略、算法家族的抽象，通常为接口。  
+* ConcreteStrategy具体策略角色：实现抽象策略中的操作。   
+#####3. 优点  
+* 算法可以自由切换
+* 避免使用多重条件判断
+* 扩展性良好（符合OPC原则）  
+#####4. 缺点  
+* 策略类数量增多  
+* 所以的策略类都需要对外暴露  
+#####5. 使用场景  
+* 多个类只有在算法或行为上稍有不同的场景。  
+* 算法需要自由切换的场景。
+* 需要屏蔽算法规则的场景。

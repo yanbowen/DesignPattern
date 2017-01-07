@@ -1,4 +1,4 @@
-package OpenClosePrinciple;
+package SixPrinciple.OpenClosePrinciple;
 
 /**
  * Created by yanbowen on 1/4/2017.

@@ -1,4 +1,4 @@
-package OpenClosePrinciple;
+package SixPrinciple.OpenClosePrinciple;
 
 import java.text.NumberFormat;
 import java.util.ArrayList;
