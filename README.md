@@ -1,9 +1,20 @@
-# DesignPattern made by yanbowen
-设计模式Demo
+# 设计模式
+>DesignPattern made by yanbowen
 
-##六大设计原则
-1.SixPrinciple.LiskovSubstitutionPrinciple  
-2.SixPrinciple.OpenClosePrinciple
+##六大设计原则  
+###1.LiskovSubstitutionPrinciple  
+>简称RSP原则；  
+>建议接口一定要做到单一职责，类的设计尽量做到只有一个原因引起变化；  
+#####单一职责原则优点：  
+* 类的复杂性降低，实现什么职责都有清晰明确的定义；
+* 可读性提高；
+* 可维护性提高；
+* 变更引起的风险降低；  
+
+###2.OpenClosePrinciple  
+>软件实体应该对扩展开放，对修改关闭  
+#####软件实体：
+* 项目或软件产品中按照一定的逻辑规则划分的模块，抽象类和方法；
 
 - - -
 ##23种设计模式
