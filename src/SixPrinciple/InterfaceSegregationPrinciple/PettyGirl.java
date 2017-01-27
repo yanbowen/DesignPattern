@@ -13,7 +13,6 @@ public class PettyGirl implements IGoodBodyGirl, IGreatTemperamentGirl {
     @Override
     public void greatTemperament() {
         System.out.println(this.name + "---气质非常好！");
-
     }
 
     @Override
